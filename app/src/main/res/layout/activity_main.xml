@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
     tools:context=".MainActivity">
 
     <TableLayout
@@ -31,11 +32,9 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20dp"
                 android:background="@drawable/chung"
                 android:onClick="playSound"
-
-                />
+                android:layout_margin="6dp"/>
 
             <ImageButton
                 android:id="@+id/pukkelpopButton"
@@ -44,7 +43,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/streets"
                 android:onClick="playSound"
-                android:padding="20dp" />
+                android:layout_margin="6dp"/>
 
             <ImageButton
                 android:id="@+id/vlaamsbelangButton"
@@ -53,7 +52,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/vb"
                 android:onClick="playSound"
-                android:padding="20dp" />
+                android:layout_margin="6dp"/>
         </TableRow>
 
         <TableRow
@@ -68,7 +67,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/woutimg"
                 android:onClick="playSound"
-                android:padding="20dp" />
+                android:layout_margin="6dp"/>
 
             <ImageButton
                 android:id="@+id/geileseksButton"
@@ -77,16 +76,16 @@
                 android:layout_weight="1"
                 android:background="@drawable/drugshol"
                 android:onClick="playSound"
-                android:padding="20dp" />
+                android:layout_margin="6dp"/>
 
             <ImageButton
                 android:id="@+id/sound6Button"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="6dp"
                 android:layout_weight="1"
-                android:onClick="playSound"
-                android:padding="20dp"
-                android:background="@drawable/chung" />
+                android:background="@drawable/comingsoon"
+                android:onClick="playSound" />
 
         </TableRow>
 
@@ -99,28 +98,28 @@
                 android:id="@+id/sound7Button"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="6dp"
                 android:layout_weight="1"
-                android:onClick="playSound"
-                android:padding="20dp"
-                android:background="@drawable/chung" />
+                android:background="@drawable/comingsoon"
+                android:onClick="playSound" />
 
             <ImageButton
                 android:id="@+id/sound8Button"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="6dp"
                 android:layout_weight="1"
-                android:onClick="playSound"
-                android:padding="20dp"
-                android:background="@drawable/chung" />
+                android:background="@drawable/comingsoon"
+                android:onClick="playSound" />
 
             <ImageButton
                 android:id="@+id/sound9Button"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="6dp"
                 android:layout_weight="1"
-                android:onClick="playSound"
-                android:padding="20dp"
-                android:background="@drawable/chung" />
+                android:background="@drawable/comingsoon"
+                android:onClick="playSound" />
 
         </TableRow>
 

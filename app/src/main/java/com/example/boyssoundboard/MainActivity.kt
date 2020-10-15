@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    public var mediaPlayer: MediaPlayer? = null
+    private var mediaPlayer: MediaPlayer? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,9 +17,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun buttonSwitch(boolean: Boolean){
-        adjesButton.setEnabled(boolean)
-        pukkelpopButton.setEnabled(boolean)
-        vlaamsbelangButton.setEnabled(boolean)
+        adjesButton.isClickable = boolean
+        pukkelpopButton.isClickable = boolean
+        vlaamsbelangButton.isClickable = boolean
+        overwatchButton.isClickable = boolean
+        geileseksButton.isClickable = boolean
     }
 
     fun playSound(view: View){
