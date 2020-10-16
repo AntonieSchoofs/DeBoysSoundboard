@@ -25,7 +25,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun playSound(view: View){
-        buttonSwitch(false)
+
+        mediaPlayer?.release()
         mediaPlayer = when (view.id){
             R.id.adjesButton -> {
                 MediaPlayer.create(this, R.raw.adjes)
@@ -46,11 +47,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         mediaPlayer!!.start()
-        while (mediaPlayer!!.isPlaying){
-
-        }
-        mediaPlayer!!.release()
-        buttonSwitch(true)
 
     }
 }
