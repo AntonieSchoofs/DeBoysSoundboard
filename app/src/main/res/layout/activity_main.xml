@@ -105,12 +105,12 @@
                     android:onClick="playSound" />
 
                 <ImageButton
-                    android:id="@+id/sound6Button"
+                    android:id="@+id/hannesWtfButton"
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
                     android:layout_margin="6dp"
                     android:layout_weight="1"
-                    android:background="@drawable/comingsoon"
+                    android:background="@drawable/hanneswtf"
                     android:onClick="playSound" />
 
                 <ImageButton
