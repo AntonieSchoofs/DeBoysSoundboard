@@ -16,13 +16,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun buttonSwitch(boolean: Boolean){
-        adjesButton.isClickable = boolean
-        pukkelpopButton.isClickable = boolean
-        vlaamsbelangButton.isClickable = boolean
-        overwatchButton.isClickable = boolean
-        geileseksButton.isClickable = boolean
-    }
 
     fun playSound(view: View){
 
