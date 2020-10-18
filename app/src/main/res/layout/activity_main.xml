@@ -52,7 +52,8 @@
                         android:layout_margin="6dp"
                         android:layout_weight="1"
                         android:background="@drawable/woutimg"
-                        android:onClick="playSound" />
+                        android:onClick="playSound"
+                        android:contentDescription="TODO" />
 
                     <ImageButton
                         android:id="@+id/discotimeButton"
