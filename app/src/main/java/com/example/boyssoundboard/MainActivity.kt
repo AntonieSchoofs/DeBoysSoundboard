@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
     fun playSound(view: View){
 
         mediaPlayer?.release()
+
         mediaPlayer = when (view.id){
             R.id.adjesButton -> {
                 MediaPlayer.create(this, R.raw.adjes)
