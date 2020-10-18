@@ -70,7 +70,7 @@
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
                         android:layout_weight="1"
-                        android:background="@drawable/hannesamai"
+                        android:background="@drawable/hanneshoe__2_"
                         android:onClick="playSound" />
 
                     <ImageButton
@@ -80,6 +80,15 @@
                         android:layout_margin="6dp"
                         android:layout_weight="1"
                         android:background="@drawable/slet"
+                        android:onClick="playSound" />
+
+                    <ImageButton
+                        android:id="@+id/quinnhoeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:layout_margin="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/quinnhoe"
                         android:onClick="playSound" />
 
                 </LinearLayout>
@@ -114,7 +123,7 @@
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
                         android:layout_weight="1"
-                        android:background="@drawable/chung"
+                        android:background="@drawable/chunghoe"
                         android:onClick="playSound" />
 
                     <ImageButton
@@ -123,7 +132,7 @@
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
                         android:layout_weight="1"
-                        android:background="@drawable/comingsoon"
+                        android:background="@drawable/hanneshoe"
                         android:onClick="playSound" />
 
                     <ImageButton
@@ -133,6 +142,15 @@
                         android:layout_margin="6dp"
                         android:layout_weight="1"
                         android:background="@drawable/quinnpijn"
+                        android:onClick="playSound" />
+
+                    <ImageButton
+                        android:id="@+id/sound17Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:layout_margin="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/comingsoon"
                         android:onClick="playSound" />
 
                 </LinearLayout>
@@ -180,7 +198,16 @@
                         android:onClick="playSound" />
 
                     <ImageButton
-                        android:id="@+id/sound15Button"
+                        android:id="@+id/wouthoeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:layout_margin="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/wouthoe"
+                        android:onClick="playSound" />
+
+                    <ImageButton
+                        android:id="@+id/sound18Button"
                         android:layout_width="match_parent"
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
