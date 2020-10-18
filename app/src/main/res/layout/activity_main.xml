@@ -55,12 +55,12 @@
                         android:onClick="playSound" />
 
                     <ImageButton
-                        android:id="@+id/sound7Button"
+                        android:id="@+id/discotimeButton"
                         android:layout_width="match_parent"
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
                         android:layout_weight="1"
-                        android:background="@drawable/comingsoon"
+                        android:background="@drawable/discotime"
                         android:onClick="playSound" />
 
                     <ImageButton
@@ -108,12 +108,12 @@
                         android:onClick="playSound" />
 
                     <ImageButton
-                        android:id="@+id/sound8Button"
+                        android:id="@+id/chungHoeButton"
                         android:layout_width="match_parent"
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
                         android:layout_weight="1"
-                        android:background="@drawable/comingsoon"
+                        android:background="@drawable/chung"
                         android:onClick="playSound" />
 
                     <ImageButton

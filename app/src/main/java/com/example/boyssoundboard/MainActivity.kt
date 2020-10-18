@@ -39,6 +39,12 @@ class MainActivity : AppCompatActivity() {
             R.id.hannesWtfButton ->{
                 MediaPlayer.create(this, R.raw.hanneswtf)
             }
+            R.id.discotimeButton ->{
+                MediaPlayer.create(this, R.raw.discotime)
+            }
+            R.id.chungHoeButton ->{
+                MediaPlayer.create(this, R.raw.chunghoe)
+            }
             else -> return
         }
 
