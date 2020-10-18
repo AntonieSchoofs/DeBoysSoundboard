@@ -45,6 +45,25 @@ class MainActivity : AppCompatActivity() {
             R.id.chungHoeButton ->{
                 MediaPlayer.create(this, R.raw.chunghoe)
             }
+            R.id.hannespizzaButton ->{
+                MediaPlayer.create(this,R.raw.hannespizza)
+            }
+            R.id.hannesamaiButton ->{
+                MediaPlayer.create(this, R.raw.hannesamai)
+            }
+            R.id.hanneshoekortButton ->{
+                MediaPlayer.create(this, R.raw.hanneshoekort)
+            }
+            R.id.hannesreeButton ->{
+                MediaPlayer.create(this, R.raw.hannesree)
+            }
+            R.id.sletButton ->{
+                MediaPlayer.create(this, R.raw.slet)
+            }
+            R.id.quinnpijnButton ->{
+                MediaPlayer.create(this, R.raw.quinnpijn)
+            }
+
             else -> return
         }
 

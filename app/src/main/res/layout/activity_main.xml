@@ -64,21 +64,21 @@
                         android:onClick="playSound" />
 
                     <ImageButton
-                        android:id="@+id/sound10Button"
+                        android:id="@+id/hannesamaiButton"
                         android:layout_width="match_parent"
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
                         android:layout_weight="1"
-                        android:background="@drawable/comingsoon"
+                        android:background="@drawable/hannesamai"
                         android:onClick="playSound" />
 
                     <ImageButton
-                        android:id="@+id/sound13Button"
+                        android:id="@+id/sletButton"
                         android:layout_width="match_parent"
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
                         android:layout_weight="1"
-                        android:background="@drawable/comingsoon"
+                        android:background="@drawable/slet"
                         android:onClick="playSound" />
 
                 </LinearLayout>
@@ -117,7 +117,7 @@
                         android:onClick="playSound" />
 
                     <ImageButton
-                        android:id="@+id/sound11Button"
+                        android:id="@+id/hanneshoekortButton"
                         android:layout_width="match_parent"
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
@@ -126,12 +126,12 @@
                         android:onClick="playSound" />
 
                     <ImageButton
-                        android:id="@+id/sound14Button"
+                        android:id="@+id/quinnpijnButton"
                         android:layout_width="match_parent"
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
                         android:layout_weight="1"
-                        android:background="@drawable/comingsoon"
+                        android:background="@drawable/quinnpijn"
                         android:onClick="playSound" />
 
                 </LinearLayout>
@@ -161,21 +161,21 @@
                         android:onClick="playSound" />
 
                     <ImageButton
-                        android:id="@+id/sound9Button"
+                        android:id="@+id/hannespizzaButton"
                         android:layout_width="match_parent"
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
                         android:layout_weight="1"
-                        android:background="@drawable/comingsoon"
+                        android:background="@drawable/hannespizza"
                         android:onClick="playSound" />
 
                     <ImageButton
-                        android:id="@+id/sound12Button"
+                        android:id="@+id/hannesreeButton"
                         android:layout_width="match_parent"
                         android:layout_height="230dp"
                         android:layout_margin="6dp"
                         android:layout_weight="1"
-                        android:background="@drawable/comingsoon"
+                        android:background="@drawable/hannesree"
                         android:onClick="playSound" />
 
                     <ImageButton
