@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
     fun playSound(view: View){
 
         mediaPlayer?.release()
